@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Максим Паляничка</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body id="body">
+
+   <header class="header" id="header" style="background-image: url('images/chicago.jpg');">
+    <div class="container">
+      <nav class="menu" id="menu">
+        <a class="logo header__logo" href="#header">
+          <img class="logo__img logo__img--header" src="images/logo.svg" alt="логотип">
+        </a>
+        <button class="burger-button" type="button">
+          <span class="burger-button__line"></span>
+          <span class="sr-only">Показати/сховати головне меню</span>
+        </button>
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#about">Що роблю</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#skills">Що вмію</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#services">Послуги</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#portfolio">Мої проекти</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#testimonials">Відгуки про мене</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__content">
+        <h1 class="header__title">
+          <span class="header__subtitle">
+            Вітаю, я Максим Паляничка
+          </span>
+          UI/UX-дизайнер та web-розробник
+        </h1>
+        <a class="header__order" href="#contacts">
+          замовити проект
+        </a>
+      </div>
+    </div>
+  </header>  
+
+  <main class="main">
+     <section class="about section" id="about">
+      <div class="container">
+        <h2 class="title">
+          Що я роблю
+        </h2>
+
+        <div class="about__text">
+          <p>
+            Мене звуть Максим Паляничка, і я є UI/UX-дизайнером та web-розробником. Народився та виріс я у прекрасному
+            місті Києві,
+            де здобув вищу освіту в галузі комп'ютерних наук. Моє захоплення веб-технологіями зародилося ще під час
+            студентських
+            років, коли я відчув перший запал до створення функціональних та естетичних веб-сайтів.
+          </p>
+          <p>
+            Зараз я маю значний досвід у розробці різноманітних веб-проектів, від простих сайтів-візиток до складних
+            веб-додатків.
+            Моєю метою завжди було створювати продукти, які не лише ефективні та функціональні, але й приємні для
+            користувача. Я
+            дуже захоплений своєю роботою і завжди прагну навчитися чомусь новому у швидкозмінному та захоплюючому світі
+            веб-розробки.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="container">
+        <h2 class="title">
+          Що я вмію
+        </h2>
+
+        <div class="skills__info">
+          <img class="skills__photo" src="images/myphoto.jpg" alt="Максим Паляничка фото">
+
+          <ul class="skills__list">
+            <li class="skills__item">
+              html
+              <div class="skills__line">
+                <div class="skills__level" style="width: 88%;"></div>
+              </div>
+            </li>
+
+            <li class="skills__item">
+              css
+              <div class="skills__line">
+                <div class="skills__level" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills__item">
+              js
+              <div class="skills__line">
+                <div class="skills__level" style="width: 61%;"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="container">
+        <h2 class="title">
+          Послуги
+        </h2>
+
+        <ul class="services__list">
+          <li class="services__item services__item--design">
+            <h3 class="services__subtitle">
+              Дизайн проектів
+            </h3>
+            <p class="services__text">
+              Як UI/UX дизайнер, я створюю креативні та естетичні дизайни, щоб ваш проект привертав увагу та вражав
+              користувачів.
+            </p>
+          </li>
+
+          <li class="services__item services__item--code">
+            <h3 class="services__subtitle">
+              Верстка
+            </h3>
+            <p class="services__text">
+              Створюю зручні та функціональні веб-сайти для будь-яких пристроїв за допомогою HTML та CSS.
+            </p>
+          </li>
+
+          <li class="services__item services__item--cms">
+            <h3 class="services__subtitle">
+              Підключення CMS
+            </h3>
+            <p class="services__text">
+              Інтегрую ваш веб-проект з CMS, щоб ви могли легко керувати його вмістом без спеціальних навичок
+              програмування.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section> 
+
+    <section class="portfolio section" id="portfolio">
+      <div class="container">
+        <h2 class="title portfolio__title">
+          Мої проекти
+        </h2>
+
+        <ul class="portfolio__filter">
+          <li class="portfolio__filter-item">
+            <button class="portfolio__filter-btn" data-filter="all" type="button">
+              Усі роботи
+            </button>
+          </li>
+          <li class="portfolio__filter-item">
+            <button class="portfolio__filter-btn" data-filter=".category-a" type="button">
+              Лендінги
+            </button>
+          </li>
+          <li class="portfolio__filter-item">
+            <button class="portfolio__filter-btn" data-filter=".category-b" type="button">
+              Корпоративні
+            </button>
+          </li>
+          <li class="portfolio__filter-item">
+            <button class="portfolio__filter-btn" data-filter=".category-c" type="button">
+              Додатки
+            </button>
+          </li>
+        </ul>
+
+        <ul class="portfolio__content">
+          <li class="portfolio__item mix category-c">
+            <img class="portfolio__image" src="images/filter/img1.jpg" alt="Місто">
+          </li>
+          <li class="portfolio__item mix category-b">
+            <img class="portfolio__image" src="images/filter/img2.jpg" alt="
+          Ліс та водойма">
+          </li>
+          <li class="portfolio__item mix category-c">
+            <img class="portfolio__image" src="images/filter/img3.jpg" alt="Пішохідний перехід">
+          </li>
+          <li class="portfolio__item mix category-a">
+            <img class="portfolio__image" src="images/filter/img4.jpg" alt="Людина працює за комп'ютером">
+          </li>
+          <li class="portfolio__item mix category-a">
+            <img class="portfolio__image" src="images/filter/img5.jpg" alt="Ліс">
+          </li>
+          <li class="portfolio__item mix category-b">
+            <img class="portfolio__image" src="images/filter/img6.jpg" alt="Комп'ютер на столі">
+          </li>
+        </ul>
+        <button class="button" type="button">
+          Показати ще
+        </button>
+      </div>
+    </section>
+
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <h2 class="title">
+          Відгуки про мене
+        </h2>
+        <div class="testimonials__content">
+          <blockquote class="testimonials__blockquote">
+            <img class="testimonials__photo-author" src="images/photo-li.jpg" alt="Хокон Віум Лі">
+            <cite class="testimonials__author">
+              Хокон Віум Лі
+            </cite>
+            Якісний проект, адекватний підхід, високий рівень підтримки коду. Рекомендую послуги Максима до
+            замовлення.
+          </blockquote>
+
+          <a class="testimonials__link" data-fancybox href="https://youtu.be/4EvwQO8VOMI?si=5fLTc0ACCia0Wnlh"
+            style="background-image: url('images/picture.jpg');">
+            <span class="sr-only">
+              дивитись виступ Хокон Віум
+              Лі
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="statistics section" id="statistics">
+      <div class="container">
+        <h2 class="sr-only">
+          Статистика
+        </h2>
+        <ul class="statistics__list">
+          <li class="statistics__item statistics__item--interface">
+            <p class="statistics__data">
+              Реалізованих проектів
+            </p>
+            <span class="statistics__data-value">
+              26
+            </span>
+          </li>
+
+          <li class="statistics__item statistics__item--users">
+            <p class="statistics__data">
+              Задоволених клієнтів
+            </p>
+            <span class="statistics__data-value">
+              17
+            </span>
+          </li>
+
+          <li class="statistics__item statistics__item--multimedia">
+            <p class="statistics__data">
+              Розроблено дизайнів
+            </p>
+            <span class="statistics__data-value">
+              77
+            </span>
+          </li>
+
+          <li class="statistics__item statistics__item--chat">
+            <p class="statistics__data">
+              Усього відгуків
+            </p>
+            <span class="statistics__data-value">
+              112
+            </span>
+          </li>
+        </ul>
+      </div>
+    </section> 
+
+    <section class="contacts section" id="contacts">
+      <div class="container">
+        <h2 class="title">
+          Контакти
+        </h2>
+
+        <div class="contacts__content">
+          <address class="contacts__info">
+            <p class="contacts__text">
+              Ви можете замовити проект - вебсайт, дизайн додатку або розробку інтерфейсу, скориставшись контактною
+              формою, номером
+              телефона, email, або месенджерами:
+            </p>
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <a class="contacts__link" href="tel:+380503223232">
+                  +38 (050) 322 32 32
+                </a>
+              </li>
+              <li class="contacts__item">
+                <a class="contacts__link" href="mailto:webdev@gmail.com">
+                  webdev@gmail.com
+                </a>
+              </li>
+            </ul>
+            <ul class="social">
+              <li class="social__item">
+                <a class="social__link" href="#" style="background-image: url('images/social/instagram.svg');">
+                  <span class="sr-only">
+                    перейти до Інстаграм
+                  </span>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="#" style="background-image: url('images/social/facebook.svg');">
+                  <span class="sr-only">
+                    перейти до Фейсбуку
+                  </span>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="#" style="background-image: url('images/social/telegram.svg');">
+                  <span class="sr-only">
+                    перейти до Телеграм
+                  </span>
+                </a>
+              </li>
+              <li class="social__item">
+                <a class="social__link" href="#" style="background-image: url('images/social/whatsapp.svg');">
+                  <span class="sr-only">
+                    перейти до Вотсап
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </address>
+
+
+          <form class="form" action="#">
+            <div class="form__top">
+              <label class="form__label" for="name">
+                Ваше ім’я
+                <input class="form__input" type="text" placeholder="Олександр" name="name" id="name" required>
+              </label>
+              <label class="form__label" for="email">
+                Електронна пошта
+                <input class="form__input" type="email" placeholder="customer@gmail.com" name="email" id="email"
+                  required>
+              </label>
+            </div>
+            <label class="form__label form__label--big" for="message">
+              Ваше повідомлення
+              <textarea class="form__input form__input--textarea" placeholder="Текст вашого повідомлення" name="message"
+                id="message"></textarea>
+            </label>
+            <button class="button" type="submit">
+              Надіслати
+            </button>
+          </form>
+        </div>
+      </div>
+    </section> 
+  </main>
+
+  <footer class="footer">
+    <a class="logo" href="#header">
+      <img class="logo__img" src="images/logo.svg" alt="логотип">
+    </a>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
