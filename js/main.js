@@ -14,7 +14,7 @@ $(document).ready(function () {
     //отменяем стандартную обработку нажатия по ссылке
     event.preventDefault();  
 
-       var id = $(this).attr('href'),
+      var id = $(this).attr('href'),
 
       top = $(id).offset().top;
 
@@ -59,4 +59,6 @@ window.addEventListener("scroll", function() {
   }
    
 })
+
+
 
